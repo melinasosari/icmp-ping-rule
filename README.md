@@ -1,4 +1,4 @@
-# Windows Firewall Rule - Allow Ping from One windows only
+# Windows Firewall Rule - Allow Ping from Specific IP (DC)
 This project sets up a custom rule in windows firewall that only alows *one windows machine**(e.g. Server or client) to ping *another windows machine*. All other systems are blocked from sending ICMP(Ping) requests.
 
 Steps to create this rule:
