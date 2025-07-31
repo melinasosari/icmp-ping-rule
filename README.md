@@ -9,8 +9,7 @@ Steps to create this rule:
    3) Choose *All Programs* then click next
    4) for *Protocol Type* choose *Icmpv4* then select *customize* 
    5) select *Specific ICMP types* then choose *Echo request*
-   6) under *remote ip address* select *these ip addresses*:
-      -add the IP address of the allowed computer(e.g. DC) 
+   6) under *remote ip address* select *these ip addresses*: add the IP address of the allowed computer(e.g. DC) 
    7)Choose the firewall profiles(public or private or domain) depending on your network
    8) Choose *Allow the connection*
    9) type a name for example *Allow Ping from DC*
