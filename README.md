@@ -12,8 +12,8 @@ Steps to create this rule:
    6) under *remote ip address* select *these ip addresses*:
       -add the IP address of the allowed computer(e.g. DC) 
    7)Choose the firewall profiles(public or private or domain) depending on your network
-   9) Choose *Allow the connection*
-   10) type a name for example *Allow Ping from DC*
-   11) Finish the rule
+   8) Choose *Allow the connection*
+   9) type a name for example *Allow Ping from DC*
+   10) Finish the rule
 
 Result: now, only the specified machine (e.g. DC) will be able to ping this computer. other systems will be blocked by the firewall.
